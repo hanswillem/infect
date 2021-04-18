@@ -6,7 +6,7 @@
 `python infect.py kick.wav epilepticfit.csv -m 1 -c 45 -i 10 -f 5  `
 
 -m = mode 1  
--c = maximum lenght of the chunk of bytes (the actual chunk will be random each itteration)  
+-n = maximum lenght of the chunk of bytes (the actual chunk will be random each itteration)  
 -i = amount of itterations  
 -f = amount of files that will be exported  
 
@@ -15,7 +15,7 @@
 `python infect.py kick.wav epilepticfit.csv -m 2 -r 1000 -f 5  `
 
 -m = mode 2  
--r = amount of random bytes to replace  
+-n = amount of random bytes to replace  
 -f = amount of files that will be exported  
 
 ### REPLACE EVERY N BYTES (works good for PNG's and MP4)  
