@@ -9,7 +9,7 @@ python infect.py kick.wav epilepticfit.csv -m 1 -c 45 -i 10 -f 5
 -c = maximum lenght of the chunk of bytes (the actual chunk will be random each itteration)
 -i = amount of itterations
 -f = amount of files that will be exported
- 
+
 REPLACE RANDOM BYTES
 python infect.py kick.wav epilepticfit.csv -m 2 -r 1000 -f 5
 -m = mode 2
