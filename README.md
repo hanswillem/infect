@@ -23,5 +23,5 @@
 `python infect.py kick.wav epilepticfit.csv -m 3 -n 512  `
 
 -m = mode 3  
--n = replace every n bytes
+-n = replace every n bytes  
 -f = amount of files that will be exported (somehow this renders different results) 
