@@ -2,7 +2,9 @@
 **Python script that replaces bytes in one file with bytes in another file.**
 
 REPLACE RANDOM CHUNK OF BYTES  
-python infect.py kick.wav epilepticfit.csv -m 1 -c 45 -i 10 -f 5  
+
+`python infect.py kick.wav epilepticfit.csv -m 1 -c 45 -i 10 -f 5  `
+
 -m = mode 1  
 -c = maximum lenght of the chunk of bytes (the actual chunk will be random each itteration)  
 -i = amount of itterations  
