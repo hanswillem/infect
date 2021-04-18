@@ -20,7 +20,7 @@
 
 ### REPLACE EVERY N BYTES (works good for PNG's and MP4)  
 
-`python infect.py kick.wav epilepticfit.csv -m 3 -n 512  `
+`python infect.py kick.wav epilepticfit.csv -m 3 -n 512 -f 5  `
 
 -m = mode 3  
 -n = replace every n bytes  
