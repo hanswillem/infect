@@ -3,7 +3,7 @@
 
 ### REPLACE RANDOM CHUNCKS OF BYTES
 
-`python infect.py kick.wav epilepticfit.csv -m 1 -c 45 -i 10 -f 5  `
+`python infect.py kick.wav epilepticfit.csv -m 1 -n 45 -i 10 -f 5  `
 
 -m = mode 1  
 -n = maximum lenght of the chunk of bytes (the actual chunk will be random each itteration)  
@@ -12,7 +12,7 @@
 
 ### REPLACE RANDOM BYTES  
 
-`python infect.py kick.wav epilepticfit.csv -m 2 -r 1000 -f 5  `
+`python infect.py kick.wav epilepticfit.csv -m 2 -n 1000 -f 5  `
 
 -m = mode 2  
 -n = amount of random bytes to replace  
