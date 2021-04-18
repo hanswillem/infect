@@ -53,6 +53,7 @@ def main():
             if i > header_length and i % n == 0:
                 fileResultList[i] = random.choice(fileBioList)
 
+    # SAVE THE FILES
     def saveResult(n):
         f3_fileName, f3_extension = os.path.splitext(args.fileBase)
         if args.numFiles > 1:
@@ -97,12 +98,14 @@ def main():
         for i in range(args.numFiles):
             replaceRandomBytes(args.num)
             saveResult(i)
+            fileResultList = fileBaseList.copy()
         print("finshed!")
     elif args.mode == 3:
         print("Mode 3: replace every n byte")
         for i in range(args.numFiles):
             replaceEveryNBytes(args.num)
             saveResult(i)
+            fileResultList = fileBaseList.copy()
         print("finshed!")
     else:
         print("Mode can only be 1, 2 or 3!")
