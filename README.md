@@ -1,5 +1,5 @@
 # Infect!
-**Python script that replaces bytes in one file with bytes in another file.**
+**Python script that replaces bytes in one file with bytes from another file.**
 
 ### REPLACE RANDOM CHUNCKS OF BYTES
 
