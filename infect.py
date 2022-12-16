@@ -28,7 +28,7 @@ import os
 # ----------------------------- glitch functions -----------------------------
 
 def main():    
-    # MDOE 1
+    # MODE 1
     def replaceRandomChunksOfBytes(c, n):
         for t in range(n):
             # get chunk of bytes
